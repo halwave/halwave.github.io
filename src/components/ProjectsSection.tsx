@@ -18,7 +18,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => (
       <p className="mb-8 text-pink-100 text-center">
         My projects vary in scope. Nevertheless, they are designed with the utmost care, creativity and functional efficiency.<br />Here you may find the github links to (most) of my projects.
       </p>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
         {projects.map((proj) => (
           <div key={proj.title} className="bg-[#2d006e]/80 rounded-2xl shadow-xl p-4 flex flex-col items-center hover:scale-105 transition-transform max-w-xs min-w-[220px] m-2 border border-pink-400">
             <a href={proj.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">

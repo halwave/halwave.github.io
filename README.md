@@ -1,70 +1,93 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
 # hwhiston.github.io
+
+A personal portfolio website for myself that is built with Vite, React, and Tailwind CSS. It is deployed via GitHub Pages. I figured the old website (originally with vanilla HTML/CSS/JS) could use a touch-up!
+
+## 🚀 Project Overview
+
+This is a modular, mobile-friendly portfolio site designed to showcase projects, experience, interests, and more. The site features a retro/vaporwave/retrowave aesthetic and is easy to curate and update.
+
+## 🛠️ Tech Stack
+
+- [Vite](https://vitejs.dev/) (build tool)
+- [React](https://react.dev/) (UI library)
+- [TypeScript](https://www.typescriptlang.org/) (type safety)
+- [Tailwind CSS](https://tailwindcss.com/) (utility-first CSS)
+- [GitHub Pages](https://pages.github.com/) (deployment)
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run locally (development)
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build locally
+
+```bash
+npm run preview
+```
+
+## 🚢 Deploy to GitHub Pages
+
+1. Build the site:
+   ```bash
+   npm run build
+   ```
+2. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+   This uses the `gh-pages` package to push the contents of the `dist` folder to the `gh-pages` branch.
+
+**To push manually as a specific user:**
+
+```bash
+git push https://hwhiston@github.com/hwhiston/hwhiston.github.io.git main
+```
+
+## 📁 Project Structure
+
+- `/src` – React components and app logic
+- `/public` – Static assets (images, etc.)
+- `/dist` – Production build output (auto-generated)
+- `vite.config.js` – Vite configuration
+- `tailwind.config.js` – Tailwind CSS configuration
+
+## ✨ Features
+
+- Modular, component-based architecture
+- Retro/vaporwave/retrowave design
+- Responsive and mobile-friendly
+- Easy to update content
+- Ready for GitHub Pages deployment
+
+## 📄 License
+
+[MIT](LICENSE)
+
+## 🙏 Acknowledgements
+
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [GitHub Pages](https://pages.github.com/)
