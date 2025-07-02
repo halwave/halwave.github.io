@@ -13,7 +13,7 @@ const experiences = [
 ];
 
 const ExperienceSection: React.FC = () => (
-  <section className="max-w-3xl mx-auto px-4 py-8">
+  <section className="max-w-3xl mx-auto py-8">
     <h2 className="text-3xl font-bold mb-4 border-b border-pink-400 pb-2">Professional Experience</h2>
     <div className="space-y-4">
       {experiences.map((exp) => (

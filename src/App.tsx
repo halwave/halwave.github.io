@@ -2,7 +2,6 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import AboutSection from './components/AboutSection';
-import InterestsSection from './components/InterestsSection';
 import ExperienceSection from './components/ExperienceSection';
 import SkillsSection from './components/SkillsSection';
 import JourneyPage from './pages/JourneyPage';
@@ -13,9 +12,8 @@ import Layout from './components/Layout';
 const MainPage: React.FC = () => (
 	<>
 		<SkillsSection />
-		<AboutSection />
 		<ExperienceSection />
-		<InterestsSection />
+		<AboutSection />
 	</>
 );
 

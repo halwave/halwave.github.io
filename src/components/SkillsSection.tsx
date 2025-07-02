@@ -21,7 +21,7 @@ const skills = [
 
 const SkillsSection: React.FC = () => (
   <section className="py-12">
-    <div className="mx-auto w-full max-w-3xl px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
+    <div className="mx-auto w-full max-w-3xl">
       <h2 className="text-3xl font-bold mb-6 border-b border-pink-400 pb-2 text-center">Technical Skills</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
         {skills.map((skill) => (
