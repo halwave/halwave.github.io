@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
-  { name: 'Home', to: '/' },
+  { name: 'About', to: '/' },
+  { name: 'Resume', to: '/resume' },
   { name: 'Projects', to: '/projects' },
   { name: 'My Journey', to: '/journey' },
   { name: 'Beyond Code', to: '/beyond-code' },
