@@ -12,13 +12,13 @@ interface ProjectsSectionProps {
 }
 
 const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => (
-  <section className="w-full flex justify-center px-4 py-12">
-    <div className="w-full max-w-7xl">
+  <section className="py-12">
+    <div className="mx-auto w-full max-w-5xl px-2 sm:px-4 md:px-8 lg:px-12 xl:px-16">
       <h2 className="text-3xl font-bold mb-6 border-b border-pink-400 pb-2 text-center">Portfolio</h2>
       <p className="mb-8 text-pink-100 text-center">
         My projects vary in scope. Nevertheless, they are designed with the utmost care, creativity and functional efficiency.<br />Here you may find the github links to (most) of my projects.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 justify-items-center">
         {projects.map((proj) => (
           <div key={proj.title} className="bg-[#2d006e]/80 rounded-2xl shadow-xl p-4 flex flex-col items-center hover:scale-105 transition-transform max-w-xs min-w-[220px] m-2 border border-pink-400">
             <a href={proj.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
