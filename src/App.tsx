@@ -1,17 +1,18 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
-import ProjectsSection from './components/ProjectsSection';
 import AboutSection from './components/AboutSection';
 import InterestsSection from './components/InterestsSection';
 import ExperienceSection from './components/ExperienceSection';
-import projects from './data/projects';
+import SkillsSection from './components/SkillsSection';
 import JourneyPage from './pages/JourneyPage';
+import ProjectsPage from './pages/ProjectsPage';
+import BeyondCodePage from './pages/BeyondCodePage';
 import Layout from './components/Layout';
 
 const MainPage: React.FC = () => (
 	<>
-		<ProjectsSection projects={projects} />
+		<SkillsSection />
 		<AboutSection />
 		<ExperienceSection />
 		<InterestsSection />
@@ -24,6 +25,8 @@ const App: React.FC = () => (
 			<Routes>
 				<Route path="/" element={<MainPage />} />
 				<Route path="/journey" element={<JourneyPage />} />
+				<Route path="/projects" element={<ProjectsPage />} />
+				<Route path="/beyond-code" element={<BeyondCodePage />} />
 			</Routes>
 		</Layout>
 	</Router>

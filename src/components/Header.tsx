@@ -3,8 +3,9 @@ import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
   { name: 'Home', to: '/' },
+  { name: 'Projects', to: '/projects' },
   { name: 'My Journey', to: '/journey' },
-  // Add more pages here as needed
+  { name: 'Beyond Code', to: '/beyond-code' },
 ];
 
 const Header: React.FC = () => {
