@@ -3,7 +3,7 @@ import React from 'react';
 const Header: React.FC = () => (
   <header className="flex flex-col items-center py-12">
     <img
-      src="/src/assets/profile.jpg"
+      src="/images/profile.jpg"
       alt="Profile"
       className="w-32 h-32 rounded-full border-4 border-pink-400 shadow-lg mb-4"
     />
