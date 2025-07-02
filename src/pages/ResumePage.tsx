@@ -6,6 +6,9 @@ const ResumePage: React.FC = () => (
   <section className="py-12">
     <div className="mx-auto w-full max-w-3xl">
       <h2 className="text-3xl font-bold mb-6 border-b border-pink-400 pb-2 text-center">Resume</h2>
+      <p className="text-pink-100 text-center max-w-2xl mx-auto mb-8">
+        Here you can find my notable skills, experience, and achievements.
+      </p>
       <SkillsSection />
       <div className="mt-12">
         <h3 className="text-2xl font-bold text-pink-200 mb-4 border-b border-pink-400 pb-1">Professional Experience</h3>
