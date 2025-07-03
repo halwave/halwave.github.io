@@ -12,11 +12,11 @@ const navLinks = [
 const Header: React.FC = () => {
   const location = useLocation();
   return (
-    <header className="py-8 flex flex-col items-center w-full px-2 sm:px-4">
+    <header className="py-8 flex flex-col items-center w-full" aria-label="Site navigation">
       <h1 className="text-4xl font-extrabold text-pink-400 drop-shadow mb-2 tracking-tight text-center">
         hwhiston
       </h1>
-      <nav className="flex flex-wrap justify-center gap-3 sm:gap-6 mt-2 w-full max-w-2xl">
+      <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 mt-2 w-full max-w-xs sm:max-w-2xl px-1">
         {navLinks.map((link) => (
           <Link
             key={link.to}

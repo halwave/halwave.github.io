@@ -6,12 +6,13 @@ const AboutHero: React.FC = () => (
     <img
       src={profileImg}
       alt="Profile"
+      loading="lazy"
       className="w-28 h-28 rounded-full border-4 border-pink-400 shadow-lg object-cover"
     />
     <div className="text-center sm:text-left max-w-xl">
       <h2 className="text-2xl font-bold text-pink-200 mb-2">Hi, I'm Halen</h2>
       <p className="text-pink-100 text-base">
-        Canadian Software Developer and retro enthusiast. I enjoy building for the web and exploring how code, art, and music interact in creative projects.
+        Canadian Software Developer and retro enthusiast. I enjoy building for the web and learning how code, art, and music can interact in creative projects.
       </p>
     </div>
   </section>

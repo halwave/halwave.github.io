@@ -4,7 +4,7 @@ import { education, awards, experience } from '../data/resume';
 
 const ResumePage: React.FC = () => (
   <section className="py-12">
-    <div className="mx-auto w-full max-w-3xl">
+    <div className="mx-auto w-full max-w-3xl px-2 sm:px-4">
       <h2 className="text-3xl font-bold mb-6 border-b border-pink-400 pb-2 text-center">Resume</h2>
       <p className="text-pink-100 text-center max-w-2xl mx-auto mb-8">
         Here you can find my notable skills, experience, and achievements.

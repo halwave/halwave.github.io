@@ -6,7 +6,7 @@ This page is a window into the things that inspire me, keep me curious, and fuel
 
 const BeyondCodePage: React.FC = () => (
   <section className="py-12">
-    <div className="mx-auto w-full max-w-3xl">
+    <div className="mx-auto w-full max-w-3xl px-2 sm:px-4">
       <h2 className="text-3xl font-bold mb-6 border-b border-pink-400 pb-2 text-center">Beyond Code</h2>
       <p className="text-pink-100 text-center mb-10 max-w-2xl mx-auto whitespace-pre-line">{pageIntro}</p>
       <div className="flex flex-col gap-12">
@@ -19,7 +19,7 @@ const BeyondCodePage: React.FC = () => (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">
               {section.items.map((item) => (
                 <div key={item.title} className="bg-[#2d006e]/80 rounded-2xl shadow p-4 border border-pink-400 flex flex-col items-center max-w-xs">
-                  <img src={item.image} alt={item.title} className="rounded-xl mb-2 max-w-[120px] max-h-[120px] object-cover border border-pink-300 shadow" />
+                  <img src={item.image} alt={item.title} loading="lazy" className="rounded-xl mb-2 max-w-[120px] max-h-[120px] object-cover border border-pink-300 shadow" />
                   <h4 className="font-bold text-pink-200 text-center mb-1 mt-2">{item.title}</h4>
                   <p className="text-pink-100 text-xs text-center">{item.description}</p>
                 </div>
