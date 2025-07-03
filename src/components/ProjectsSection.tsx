@@ -3,7 +3,7 @@ import React from 'react';
 export interface Project {
   title: string;
   image: string;
-  link: string;
+  link?: string;
   description: string;
 }
 

@@ -7,7 +7,7 @@ const AboutHero: React.FC = () => (
       src={profileImg}
       alt="Profile"
       loading="lazy"
-      className="w-28 h-28 rounded-full border-4 border-pink-400 shadow-lg object-cover"
+      className="w-28 h-28 aspect-square rounded-full border-4 border-pink-400 shadow-lg object-cover"
     />
     <div className="text-center sm:text-left max-w-xl">
       <h2 className="text-2xl font-bold text-pink-200 mb-2">Hi, I'm Halen</h2>
