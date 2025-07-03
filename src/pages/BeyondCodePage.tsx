@@ -2,7 +2,7 @@ import React from 'react';
 import beyondCodeData from '../data/beyondCode';
 
 const pageIntro = `
-This page is a window into the things that inspire and fuel my creativity outside of work. Here you’ll find some of my favourite music, art, games, and books—with a few personal notes on why they matter to me.`;
+This page is a window into the things that inspire and fuel my creativity outside of work. Here you’ll find some of my favourite music, books, and games—with a few personal notes on why they matter to me.`;
 
 const BeyondCodePage: React.FC = () => (
   <section className="py-12">

@@ -7,7 +7,6 @@ export interface JourneyItem {
 
 import profileImg from "/images/profile.jpg";
 import aboutImg from "/images/about.jpg";
-import pythonImg from "/images/python.jpg";
 
 const journeyTimeline: JourneyItem[] = [
   {
@@ -29,7 +28,7 @@ const journeyTimeline: JourneyItem[] = [
     title: "Graduated & Joined Example Corp",
     description:
       "Graduated with honors and started my professional career as a Software Developer.",
-    image: pythonImg,
+    image: aboutImg,
   },
   {
     year: "2024",
