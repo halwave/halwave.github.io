@@ -18,7 +18,7 @@ const journeyTimeline: JourneyItem[] = [
     year: "2007",
     title: "First Steps in Computer Science",
     description:
-      "Took my first computer science course in high school, learning Visual Basic and discovering a passion for programming and techology.",
+      "Took my first computer science course in high school, learning Visual Basic and discovering a passion for programming and technology.",
     image: visualBasicLogo,
   },
   {
@@ -81,7 +81,7 @@ const journeyTimeline: JourneyItem[] = [
     year: "2024",
     title: "Portfolio Launch & Looking Forward",
     description:
-      "Launched my personal portfolio website to showcase my journey, projects, and growth as a developer. Continuing to learn, create, and support others in the tech community.",
+      "Launched my personal portfolio website to showcase my journey, projects, and growth as a developer. I continue to learn, create, and support others in the tech community.",
     image: viteLogo,
   },
 ];

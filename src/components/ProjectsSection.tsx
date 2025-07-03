@@ -16,7 +16,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => (
     <div className="mx-auto w-full max-w-5xl">
       <h2 className="text-3xl font-bold mb-6 border-b border-pink-400 pb-2 text-center">Portfolio</h2>
       <p className="mb-8 text-pink-100 text-center">
-        My projects vary in scope. Nevertheless, they are designed with the utmost care, creativity and functional efficiency.<br />Here you may find the github links to (most) of my projects.
+        My projects vary in scope, but each is designed with care, creativity, and functional efficiency.<br />Here you can find GitHub links to most of my projects.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 justify-items-center">
         {projects.map((proj) => (

@@ -64,11 +64,10 @@ const beyondCodeData: BeyondCodeCategory[] = [
         image: deathcabPlans,
         description: "An album that resonates with me on many levels.",
       },
-
       {
         title: "Macintosh Plus – Floral Shoppe (2011)",
         image: floralShoppe,
-        description: "The gateway drug to my Vaporwave rabbit hole.",
+        description: "The gateway to my vaporwave rabbit hole.",
       },
       {
         title: "Minecraft – Volume Alpha (2011)",
@@ -101,13 +100,13 @@ const beyondCodeData: BeyondCodeCategory[] = [
         title: "Pride and Prejudice by Jane Austen",
         image: prideAndPrejudice,
         description:
-          "I bit the bullet on this out of curiosity and man it was so worth it.",
+          "I bit the bullet on this out of curiosity, and man it was so worth it.",
       },
       {
         title: "Fourth Wing by Rebecca Yarros",
         image: fourthWing,
         description:
-          "A captivating fantasy with dragons, intrigue and romance. Oh, the romance.",
+          "A captivating fantasy with dragons, intrigue, and romance. Oh, the romance.",
       },
       {
         title: "1984 by George Orwell",
@@ -119,12 +118,12 @@ const beyondCodeData: BeyondCodeCategory[] = [
         title: "Ready Player One by Ernest Cline",
         image: readyPlayerOne,
         description:
-          "This book felt like it was made for me and I'm not the first person to say that.",
+          "This book felt like it was made for me, and I'm not the first person to say that.",
       },
       {
         title: "The Stand by Stephen King",
         image: theStand,
-        description: "My favourite King novel and it's a hard one to top tbh.",
+        description: "My favourite King novel, and it's a hard one to top.",
       },
       {
         title: "The Complete Peanuts by Charles M. Schulz",
@@ -146,7 +145,7 @@ const beyondCodeData: BeyondCodeCategory[] = [
       {
         title: "Monster Hunter Generations Ultimate",
         image: generationsUltimate,
-        description: "Don't ask me how many hours I have on this. Please.",
+        description: "Don't ask me how many hours I have on this—please.",
       },
       {
         title: "Xenoblade Chronicles 2",
@@ -170,7 +169,7 @@ const beyondCodeData: BeyondCodeCategory[] = [
         title: "Resident Evil 4",
         image: residentEvil4,
         description:
-          "I adopted some of my personality from this game, it's hard to explain.",
+          "I adopted some of my personality from this game—it's hard to explain.",
       },
       {
         title: "Halo: Combat Evolved",
@@ -180,8 +179,7 @@ const beyondCodeData: BeyondCodeCategory[] = [
       {
         title: "Super Mario RPG",
         image: superMarioRpg,
-        description:
-          "I don't think I'll ever get over this game for as long as I live.",
+        description: "I don't think I'll ever get over this game.",
       },
     ],
   },
