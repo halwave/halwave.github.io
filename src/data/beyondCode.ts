@@ -185,6 +185,12 @@ const beyondCodeData: BeyondCodeCategory[] = [
       },
     ],
   },
+  {
+    category: "Art",
+    description:
+      "I create digital and traditional art as a personal passion. If you'd like to see samples of my work, please contact me and I'll be happy to share them privately.",
+    items: [],
+  },
 ];
 
 export default beyondCodeData;

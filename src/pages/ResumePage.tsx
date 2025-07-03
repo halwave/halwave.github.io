@@ -1,6 +1,5 @@
 import React from 'react';
-import SkillsSection from '../components/SkillsSection';
-import { education, awards, experience } from '../data/resume';
+import { education, awards, experience, skills } from '../data/resume';
 
 const ResumePage: React.FC = () => (
   <section className="py-12">
@@ -9,7 +8,23 @@ const ResumePage: React.FC = () => (
       <p className="text-pink-100 text-center max-w-2xl mx-auto mb-8">
         Here you can find my notable skills, experience, and achievements.
       </p>
-      <SkillsSection />
+      <div className="mt-8">
+        <h3 className="text-2xl font-bold text-pink-200 mb-4 border-b border-pink-400 pb-1">Technical Skills</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
+          {skills.map((skill) => (
+            <div key={skill.category} className="bg-[#2d006e]/80 rounded-2xl shadow p-6 border border-pink-400">
+              <h4 className="font-semibold text-pink-200 mb-2 text-lg text-center">{skill.category}</h4>
+              <ul className="flex flex-wrap gap-2 justify-center">
+                {skill.items.map((item) => (
+                  <li key={item} className="bg-pink-700/30 text-pink-100 px-3 py-1 rounded-full text-sm font-mono border border-pink-300/40">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
       <div className="mt-12">
         <h3 className="text-2xl font-bold text-pink-200 mb-4 border-b border-pink-400 pb-1">Professional Experience</h3>
         <div className="space-y-4">
