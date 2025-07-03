@@ -10,7 +10,7 @@ const ResumePage: React.FC = () => (
       </p>
       <div className="mt-8">
         <h3 className="text-2xl font-bold text-pink-200 mb-4 border-b border-pink-400 pb-1">Technical Skills</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 mt-8">
           {skills.map((skill) => (
             <div key={skill.category} className="bg-[#2d006e]/80 rounded-2xl shadow p-6 border border-pink-400">
               <h4 className="font-semibold text-pink-200 mb-2 text-lg text-center">{skill.category}</h4>

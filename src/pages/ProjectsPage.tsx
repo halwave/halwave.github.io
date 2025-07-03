@@ -8,7 +8,7 @@ const ProjectsPage: React.FC = () => (
       <p className="mb-8 text-pink-100 text-center">
         Here are some of my favourite and most noteworthy projects. Most of these are discontinued, but they were important to me at the time.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 sm:gap-x-6 gap-y-6 sm:gap-y-8 lg:gap-y-12 justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4 sm:gap-y-6 lg:gap-y-8 justify-items-center">
         {projects.map((proj) => (
           <div key={proj.title} className="bg-[#2d006e]/80 rounded-2xl shadow-xl p-4 flex flex-col items-center hover:scale-105 transition-transform max-w-xs min-w-[160px] m-2 border border-pink-400">
             <a href={proj.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">

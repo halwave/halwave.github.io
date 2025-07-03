@@ -27,7 +27,7 @@ const JourneyPage: React.FC = () => (
       {journeyTimeline.map((item, idx) => (
         <div
           key={item.year + item.title}
-          className={`mb-16 ml-6 flex items-center ${idx % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}
+          className={`mb-8 sm:mb-12 ml-6 flex items-center ${idx % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}
         >
           <div className="absolute w-3 h-3 bg-pink-400 rounded-full -left-1.5 mt-2.5 z-10"></div>
           <img src={item.image} alt={item.title} loading="lazy" className="w-16 h-16 rounded-full border-2 border-pink-400 shadow-lg mx-4 hidden sm:block" />
