@@ -2,7 +2,7 @@ import React from 'react';
 import beyondCodeData from '../data/beyondCode';
 
 const pageIntro = `
-This page is a window into the things that inspire me, keep me curious, and fuel my creativity outside of work. Here you’ll find some of my favorite music, art, games, and books—with a few personal notes on why they matter to me.`;
+This page is a window into the things that inspire and fuel my creativity outside of work. Here you’ll find some of my favourite music, art, games, and books—with a few personal notes on why they matter to me.`;
 
 const BeyondCodePage: React.FC = () => (
   <section className="py-12">
@@ -16,9 +16,9 @@ const BeyondCodePage: React.FC = () => (
             {section.description && (
               <p className="text-pink-100 text-center mb-4 text-base">{section.description}</p>
             )}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-6 sm:gap-y-10 lg:gap-y-12 justify-items-center">
               {section.items.map((item) => (
-                <div key={item.title} className="bg-[#2d006e]/80 rounded-2xl shadow p-4 border border-pink-400 flex flex-col items-center max-w-xs">
+                <div key={item.title} className="bg-[#2d006e]/80 rounded-2xl shadow p-4 border border-pink-400 flex flex-col items-center max-w-xs w-full min-w-[200px]">
                   <img src={item.image} alt={item.title} loading="lazy" className="rounded-xl mb-2 max-w-[120px] max-h-[120px] object-cover border border-pink-300 shadow" />
                   <h4 className="font-bold text-pink-200 text-center mb-1 mt-2">{item.title}</h4>
                   <p className="text-pink-100 text-xs text-center">{item.description}</p>
