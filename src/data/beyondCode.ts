@@ -145,7 +145,7 @@ const beyondCodeData: BeyondCodeCategory[] = [
       {
         title: "Monster Hunter Generations Ultimate",
         image: generationsUltimate,
-        description: "Don't ask me how many hours I have on this—please.",
+        description: "Don't ask me how many hours I have on this. Please.",
       },
       {
         title: "Xenoblade Chronicles 2",
@@ -179,7 +179,8 @@ const beyondCodeData: BeyondCodeCategory[] = [
       {
         title: "Super Mario RPG",
         image: superMarioRpg,
-        description: "I don't think I'll ever get over this game.",
+        description:
+          "I don't think I'll ever get over this game for as long as I live.",
       },
     ],
   },
