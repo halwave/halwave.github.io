@@ -22,7 +22,7 @@ const projects: Project[] = [
   {
     title: "MissileDefense.io",
     image: "/images/projects/missiledefense.jpg",
-    link: "https://github.com/hwhiston/MissileDefense.io",
+    link: "https://github.com/halwave/MissileDefense.io",
     description:
       "Retro missile defense game built with Phaser 3. Defend your tank against endless waves of missiles.",
   },
@@ -41,7 +41,7 @@ const projects: Project[] = [
   {
     title: "Python Tutorial for Beginners",
     image: "/images/projects/python.jpg",
-    link: "https://github.com/hwhiston/PythonTutorialForBeginners",
+    link: "https://github.com/halwave/PythonTutorialForBeginners",
     description:
       "Beginner-friendly Python docs for tutoring first-year CS students.",
   },
@@ -54,7 +54,7 @@ const projects: Project[] = [
   {
     title: "Spherule",
     image: "/images/projects/spherule.jpg",
-    link: "https://github.com/hwhiston/Spherule",
+    link: "https://github.com/halwave/Spherule",
     description:
       "Physics puzzle game in Unity: launch spheres, clear the board, and build combos.",
   },

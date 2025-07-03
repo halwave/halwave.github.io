@@ -69,11 +69,11 @@ export const experience = [
     company: "Rocket Innovation Studio",
     years: "2020 – Present",
     details: [
-      "Joined RIS as an Associate Software Developer (2020–2021), promoted to Software Developer in 2021.",
-      "Built and maintained web applications using Angular, React, Node, and modern CMS platforms.",
-      "Supported partners such as Rocket Mortgage, RocketPro, and Edison Financial with full-stack development using technologies like Node, AWS, .NET C#, and Salesforce Apex.",
-      "Contributed to internal tools and cloud-based web applications across multiple Rocket companies.",
-      "Frequently collaborated with cross-functional teams, participated in Agile ceremonies, and mentored junior developers on best practices and new technologies.",
+      "Joined as an Associate Software Developer, promoted to Software Developer.",
+      "Built and maintained web applications using modern frameworks and CMS platforms.",
+      "Supported a variety of financial and technology partners with full-stack development using technologies such as Node, AWS, .NET C#, and Salesforce Apex.",
+      "Contributed to internal tools and cloud-based web applications for multiple business units.",
+      "Collaborated with cross-functional teams, participated in Agile ceremonies, and mentored junior developers on best practices and new technologies.",
     ],
   },
   {
@@ -82,7 +82,7 @@ export const experience = [
     years: "2018 – 2019",
     details: [
       "Promoted to Full-Stack Developer in late 2019.",
-      "Developed and maintained a large internal PHP monolith web application used by editors worldwide.",
+      "Developed and maintained a large internal web application used by a global team of editors.",
       "Focus on PHP and JavaScript.",
     ],
   },
@@ -100,8 +100,8 @@ export const experience = [
     company: "Windsor Mold Group",
     years: "2012, 2013, 2015",
     details: [
-      "Supported the Tooling Division by developing and maintaining internal applications, primarily using Microsoft Excel VBA.",
-      "Automated and streamlined business processes for engineering and production teams through custom Excel solutions.",
+      "Supported engineering and production teams by developing and maintaining internal business applications.",
+      "Automated and streamlined business processes through custom solutions.",
       "Later learned C# to develop a specialized tool to assist with laser measurements for metal cutting operations.",
     ],
   },

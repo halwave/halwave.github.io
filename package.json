@@ -1,5 +1,5 @@
 {
-  "name": "hwhiston.website",
+  "name": "halwave.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r https://hwhiston@github.com/hwhiston/hwhiston.github.io.git"
+    "deploy": "gh-pages -d dist -r https://halwave@github.com/halwave/halwave.github.io.git"
   },
   "dependencies": {
     "react": "^19.1.0",

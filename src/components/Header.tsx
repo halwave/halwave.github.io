@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   return (
     <header className="py-8 flex flex-col items-center w-full" aria-label="Site navigation">
       <h1 className="text-4xl font-extrabold text-pink-400 drop-shadow mb-2 tracking-tight text-center">
-        hwhiston
+        halwave
       </h1>
       <nav className="flex flex-wrap justify-center gap-2 sm:gap-4 mt-2 w-full max-w-xs sm:max-w-2xl px-1">
         {navLinks.map((link) => (

@@ -1,4 +1,4 @@
-# hwhiston.github.io
+# halwave.github.io
 
 A personal portfolio website for myself that is built with Vite, React, and Tailwind CSS. It is deployed via GitHub Pages. I figured the old website (originally with vanilla HTML/CSS/JS) could use a touch-up!
 
@@ -62,7 +62,7 @@ npm run preview
 **To push manually as a specific user:**
 
 ```bash
-git push https://hwhiston@github.com/hwhiston/hwhiston.github.io.git main
+git push https://halwave@github.com/halwave/halwave.github.io.git main
 ```
 
 ## 📁 Project Structure
