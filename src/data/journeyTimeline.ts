@@ -30,7 +30,7 @@ const journeyTimeline: JourneyItem[] = [
   },
   {
     year: "2012",
-    title: "Expanding Skills & Co-op Experience",
+    title: "Co-op Experience",
     description:
       "Learned Java and C#, and completed my first co-op placement at Windsor Mold Group, developing internal tools and automation with Excel VBA and C# for the Tooling Division.",
     image: uwindsorLogo,

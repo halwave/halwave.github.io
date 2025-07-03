@@ -94,47 +94,44 @@ const beyondCodeData: BeyondCodeCategory[] = [
         title: "Six of Crows by Leigh Bardugo",
         image: sixOfCrows,
         description:
-          "A suspenseful fantasy heist with memorable characters. And I love all of them.",
+          "A fantasy heist with a cast I love. Gritty, clever, and full of heart.",
       },
       {
         title: "Pride and Prejudice by Jane Austen",
         image: prideAndPrejudice,
         description:
-          "I bit the bullet on this out of curiosity, and man it was so worth it.",
+          "Tried it out of curiosity—totally worth it. Witty and timeless.",
       },
       {
         title: "Fourth Wing by Rebecca Yarros",
         image: fourthWing,
-        description:
-          "A captivating fantasy with dragons, intrigue, and romance. Oh, the romance.",
+        description: "Dragons, intrigue, and romance. I was hooked.",
       },
       {
         title: "1984 by George Orwell",
         image: nineteenEightyFour,
-        description:
-          "A story in some ways, but a warning in many others. Absolutely chilling.",
+        description: "A story, a warning, and absolutely chilling.",
       },
       {
         title: "Ready Player One by Ernest Cline",
         image: readyPlayerOne,
         description:
-          "This book felt like it was made for me, and I'm not the first person to say that.",
+          "This book felt like it was made for me—and I'm not alone in that.",
       },
       {
         title: "The Stand by Stephen King",
         image: theStand,
-        description: "My favourite King novel, and it's a hard one to top.",
+        description: "My favourite King novel. Hard to top.",
       },
       {
         title: "The Complete Peanuts by Charles M. Schulz",
         image: theCompletePeanuts,
-        description:
-          "A collection of the beloved comic strip that resonated with me as a kid, and even more as an adult.",
+        description: "Beloved as a kid, even more as an adult. Pure comfort.",
       },
       {
         title: "Electric Tale of Pikachu by Toshio Miyahara",
         image: electricTaleOfPikachu,
-        description: "One of my earliest introductions to manga.",
+        description: "One of my first manga.",
       },
     ],
   },
