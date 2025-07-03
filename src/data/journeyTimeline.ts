@@ -53,21 +53,21 @@ const journeyTimeline: JourneyItem[] = [
     year: "2016",
     title: "Graduation & New Horizons",
     description:
-      "Completed my undergraduate degree and was accepted into the MSc in Computer Science program at the University of Windsor, specializing in pathfinding AI. Embraced new academic challenges and supported fellow graduate students.",
+      "Completed my undergraduate degree and was accepted into the MSc in Computer Science program at the University of Windsor, specializing in software engineering. The focus of my thesis was on pathfinding AI.",
     image: uwindsorLogo,
   },
   {
     year: "2018",
     title: "MSc Graduation & First Full-Time Role",
     description:
-      "Graduated and joined Scribendi as a Front-End Developer, supporting a global team of editors with web application development. Purchased my first car and began building financial independence.",
+      "Graduated and joined Scribendi as a Front-End Developer, supporting a global team of editors with web application development. Reached a milestone of financial independence, including reliable transportation.",
     image: scribendiLogo,
   },
   {
     year: "2020",
-    title: "New Beginnings at Rocket Innovation Studio & Home Ownership",
+    title: "New Beginnings at Rocket Innovation Studio",
     description:
-      "Started at Rocket Innovation Studio as an Associate Software Developer. Adapted to remote work during the pandemic and achieved a major milestone by purchasing my first condo in Windsor.",
+      "Started at Rocket Innovation Studio as an Associate Software Developer. Adapted to remote work during the pandemic and transitioned to independent living in Windsor, marking a significant personal milestone.",
     image: rocketLogo,
   },
   {
@@ -78,7 +78,7 @@ const journeyTimeline: JourneyItem[] = [
     image: rocketLogo,
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Portfolio Launch & Looking Forward",
     description:
       "Launched my personal portfolio website to showcase my journey, projects, and growth as a developer. I continue to learn, create, and support others in the tech community.",

@@ -48,7 +48,7 @@ export const education = [
     school: "University of Windsor",
     years: "2016 – 2018",
     details: [
-      "Specialization in Pathfinding AI (Supervisor: Dr. Goodwin)",
+      "Specialization in Software Engineering; thesis focused on Pathfinding AI (Supervisor: Dr. Goodwin)",
       "Honour Roll Student",
     ],
   },
