@@ -64,17 +64,24 @@ const journeyTimeline: JourneyItem[] = [
     image: scribendiLogo,
   },
   {
-    year: "2020",
+    year: "2020–2022",
     title: "New Beginnings at Rocket Innovation Studio",
     description:
-      "Started at Rocket Innovation Studio as an Associate Software Developer. Adapted to remote work during the pandemic and transitioned to independent living in Windsor, marking a significant personal milestone.",
+      "Joined Rocket Innovation Studio (RIS) as an Associate Software Developer, adapting to remote work and independent living. Promoted to Software Developer and contributed to a variety of web projects and internal tools for Edison and RIS partners.",
     image: rocketLogo,
   },
   {
-    year: "2021–2024",
-    title: "Growth at Rocket – Projects & Leadership",
+    year: "2022–2023",
+    title: "Growth at RIS",
     description:
-      "Promoted to Software Developer. Contributed to projects for Edison Financial, Rocket Mortgage, and RocketPro, working with technologies like Angular, React, C#, Salesforce, and modern CMS platforms.",
+      "Worked at RIS with the Rocket Mortgage team, using AWS, Node, Angular, and Sitecore to build and maintain web platforms.",
+    image: rocketLogo,
+  },
+  {
+    year: "2024–Present",
+    title: "Working with Partners",
+    description:
+      "At RIS, I focus on React, Node, and C# to deliver and support modern web solutions for RocketPro and its partners. I continue to grow my skills while contributing to a collaborative, innovative environment.",
     image: rocketLogo,
   },
   {
