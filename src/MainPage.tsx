@@ -1,11 +1,9 @@
 import React from 'react';
-import AboutHero from './components/AboutHero';
-import AboutSection from './components/AboutSection';
+import AboutPage from './pages/AboutPage';
 
 const MainPage: React.FC = () => (
   <>
-    <AboutHero />
-    <AboutSection />
+    <AboutPage />
   </>
 );
 
