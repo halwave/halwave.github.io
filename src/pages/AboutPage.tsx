@@ -14,7 +14,7 @@ const AboutPage: React.FC = () => (
       <div className="text-center sm:text-left max-w-xl">
         <h2 className="text-2xl font-bold text-pink-50 mb-2">Hi, I'm Halen</h2>
         <p className="text-pink-100 text-base">
-          Canadian Software Developer and retro enthusiast. I enjoy building for the web and learning how code, art, and music can interact in creative projects.
+          Canadian Software Developer and retro enthusiast. I enjoy web development and learning new ways to improve my craft. Oh, and I like building cool s***.
         </p>
       </div>
     </div>

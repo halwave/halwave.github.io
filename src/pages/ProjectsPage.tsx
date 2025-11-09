@@ -6,7 +6,7 @@ const ProjectsPage: React.FC = () => (
   <Section title="Projects">
     <div className="text-pink-100">
       <p className="mb-8 text-center">
-        Here are some of my favourite and most noteworthy projects. Most of these are discontinued, but they were important to me at the time.
+        Here are some of my favourite and most noteworthy projects. Projects past the bottom half of the page have been discontinued.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4 sm:gap-y-6 lg:gap-y-8 justify-items-center">
         {projects.map((proj) => (
