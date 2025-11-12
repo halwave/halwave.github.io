@@ -49,6 +49,13 @@ const projects: Project[] = [
       'A Payload CMS plugin that identifies and removes unused media files from the media library.',
   },
   {
+    title: 'MyScapetuary',
+    image: '/images/projects/myscapetuary.png',
+    link: 'https://github.com/halwave/myscapetuary',
+    description:
+      'A parody page of a MySpace blog built using Astro and Node.js.',
+  },
+  {
     title: 'MissileDefense.io',
     image: '/images/projects/missiledefense.jpg',
     link: 'https://github.com/halwave/MissileDefense.io',
